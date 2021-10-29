@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Stephen King quiz</h1>
+        <p id="description">How Much do you know about Stephen?</p>
+    </header>
+    <main>
+        <div class="form">
+            <form id="survey-form" action="">
+                <div class="name">
+                    <label id="name-label" for="name">Name</label>
+                    <input id="name" type="name" placeholder="Carrietta N White" required>
+                </div>
+                <div class="email">
+                    <label id="email-label" for="email">Email</label>
+                    <input id="email" type="email" placeholder="promqueen@bateshigh.com" required>
+                </div>
+                <div class="number">
+                    <label id="number-label" for="number">Phone Number</label>
+                    <input id="number" type="number" min="0" max="100" placeholder="05251979">
+                </div>
+                <h2>What is Stephen King's favourite movie adaptation?</h2>
+                <div class="favorite-movie">
+                    <label id="drop-down" for="dropdown">There <b>ARE</b> wrong answers</label>
+                    <select name="selection" id="dropdown">
+                        <option value="The Shinning">The Shinning</option>
+                        <option value="Pet Samatary">Pet Samatary</option>
+                        <option value="The Green Mile">The Green Mile</option>
+                        <option value="Dreamcatcher">Dreamcatcher</option>
+                        <option value="The body">The Body</option>
+                        <option value="Shawshank's Redemption">Shawshank's Redemption</option>
+                    </select>
+                </div>
+                <br>
+                <h2>What is the name of Stepehn King's dog?</h2>
+                <div class="favorite-movie">
+                    <label id="drop-down" for="dropdown"></label>
+                    <select name="selection" id="dropdown">
+                        <option value="Spot">SPOT -- "The Lord of Destruction"</option>
+                        <option value="Baltazar">BALTAZAR --  "The ripper" </option>
+                        <option value="Molly">MOLLY --  "The thing of evil"</option>
+                        <option value="Luna">LUNA --  "The Princess of Darkness"</option>
+                        <option value="Spike">SPIKE -- "Hellraiser"</option>
+                    </select>
+                </div>
+
+                <div class="first-novel">
+                    <h2>What was King's first published novel?</h2>
+                    <field class="botones-radio">
+                        <label for="carrie">
+                            <input id="carrie" value="carrie" type="radio" atribute="" name="first-novel">Carrie
+
+                        </label>
+
+                        <label for="cujo">
+                            <input id="cujo" value="cujo" type="radio" atribute="" name="first-novel" />
+                            <span>Cujo</span>
+
+                        </label>
+
+                        <label for="it">
+                            <input id="it" value="it" type="radio" atribute="" name="first-novel">IT
+
+                        </label>
+
+                        <label for="missery">
+                            <input id="missery" value="missery" type="radio" atribute="" name="first-novel">Missery
+                        </label>
+
+                    </field>
+                </div>
+                <div class="rate">
+                    <h2>How would you rate King's work?</h2>
+
+                    <field class="elecciones">
+
+
+                        <label for="Norris">
+                            <input id="Norris" value="Norris" type="checkbox" atribute="" name="rate">He is the
+                            Chuck Norris of Writting
+                        </label>
+                        <label for="ten">
+                            <input id="ten" value="ten" type="checkbox" atribute="" name="rate">
+                            10/10
+                        </label>
+                        <label for="The Best">
+                            <input id="The Best" value="The Best" type="checkbox" atribute="" name="rate">
+                            He is the best
+                        </label>
+
+
+
+                    </field>
+                </div>
+                <div class="comments">
+
+                    <label for="coments">Leave your comment</label>
+
+                    <textarea id="coments" name="coments" rows="4" cols="50"></textarea>
+                </div>
+
+                <div class="boton">
+                    <button id="submit" value="submit">Submit</button>
+                </div>
+
+
+
+
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>

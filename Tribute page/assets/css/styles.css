@@ -1,0 +1,59 @@
+#main {
+    background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  #title {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-family: helvetica;
+  }
+  
+  #img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  figcaption {
+    margin-top: 10px;
+    color: white;
+  }
+  
+  #image {
+    max-width: 100%;
+    border: solid white 10px;
+  }
+  
+  #tribute-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+  }
+  
+  #link{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: white;
+  }
+  #tribute-link{
+    color: white;
+    font-size: 25px;
+    
+  }
+  
+  
+  
+  

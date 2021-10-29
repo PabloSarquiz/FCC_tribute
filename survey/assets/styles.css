@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(10, 10, 10, 0.884);
+    font-family:'IM Fell English SC', serif;
+}
+
+header{
+    background-color: black;
+  
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+ 
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+  main div{
+      padding: 1rem;
+  }
+
+  input{
+    padding: 10px;
+    margin: 5px 0;
+    border:0; 
+    border-radius: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.15);
+    
+}
+
+input[type="radio"]{
+    box-shadow: none;
+    border: black solid 1px;
+    margin-right: 10px;
+
+}
+
+input[type="checkbox"]{
+    box-shadow: none;
+    margin-right: 10px;
+
+}
+
+
+
+select {
+    width: 100%;
+    padding:10px;
+    border-radius:10px;
+  }
+
+
+button {
+    appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: rgb(2, 2, 2);
+    color: white;
+    font: 500;
+    border-radius: 5px;
+    width: 100%
+}
+    
+
+  
+  .form {
+    margin-top: 1rem;
+    background-color: rgba(216, 229, 231, 0.9);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow:0 0 15px 4px rgba(241, 233, 233, 0.842);
+   
+  }
+
+  .form h2{
+      text-align: center;
+  }
+
+
+  .name{
+      display: flex;
+      flex-direction: column;
+  }
+      
+
+  .email{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .number {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .favorite-movie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #drop-down{
+      text-align: center;
+  }
+
+ .first-novel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+ }
+
+ .first-novel label {
+     display: flex;
+     
+}
+
+.botones-radio{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.adaptation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.elecciones{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+
+
+.comments{
+    display: flex;
+    flex-direction: column;
+}
+
+.boton{
+    text-align: center;
+}
+
